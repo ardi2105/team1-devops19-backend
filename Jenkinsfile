@@ -11,14 +11,14 @@ pipeline {
                 stage('send notif'){
                         steps {
 				echo "Test To Discord"
-				discordSend description: 'Testing Frontend', 
+				discordSend description: 'Testing Backend', 
 				footer: 'Backend-Deploy', 
 				image: '', 
 				link: "${BUILD_URL}", 
 				result: '', 
 				scmWebUrl: '', 
 				thumbnail: '', 
-				title: 'Frontend', 
+				title: 'Backend', 
 				webhookURL: 'https://discord.com/api/webhooks/1192368582273794128/9IM58FV5MLUCJWQtr1dhnmFWC2hJyiwRlJwM7n-vvqxGRtfzlj6N5vZIQCf7TLScOIJj'
                                 }
                 }
