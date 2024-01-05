@@ -12,7 +12,7 @@ pipeline {
                         steps {
 				echo "Test To Discord"
 				discordSend description: 'Testing Backend', 
-				footer: 'Backend-Deploy', 
+				footer: 'Backend-Deploy-Test', 
 				image: '', 
 				link: "${BUILD_URL}", 
 				result: '', 
