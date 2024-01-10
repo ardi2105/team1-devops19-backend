@@ -1,6 +1,6 @@
 def credential = 'github'
 def server = 'team1@103.127.132.84'
-def directory = '/home/team1/wayshub-backend'
+def directory = '/home/team1/team1-devops19-backend'
 def branch = 'main'
 def service = 'backend'
 
